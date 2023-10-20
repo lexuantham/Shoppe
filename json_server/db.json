@@ -1,0 +1,24 @@
+{
+  "courses": [
+    {
+      "name": "Hương Ly",
+      "address": "21 Võ Thúc Đồng Bến Thủy",
+      "id": 3
+    },
+    {
+      "name": "Quỳnh Quỳnh",
+      "address": "36 Bạch Liêu Bến Thủy ",
+      "id": 5
+    },
+    {
+      "name": "Thẩm Thẩm",
+      "address": "41 Nguyễn Du Bến Thủy",
+      "id": 6
+    },
+    {
+      "name": "Lan Anh",
+      "address": "Ký Túc Xá Đại Học Vinh",
+      "id": 7
+    }
+  ]
+}

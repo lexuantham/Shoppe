@@ -1,0 +1,39 @@
+.btn {
+  /* Add your styles for btn */
+  min-width: 142px;
+  height: 36px;
+  text-decoration: none;
+  border: none;
+  border-radius: 2px;
+  font-size: 1.5rem;
+  padding: 0;
+  cursor: pointer;
+  color: $text-color;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  &--primary {
+    background-color: $primary-color;
+    color: $text-color;
+  }
+
+  &--size-s {
+    height: 32px;
+    font-size: 12px;
+  }
+
+  &--disabled {
+    cursor: default;
+    background-color: #999;
+    color: black;
+  }
+}
+
+.btn--with-icon {
+  /* Add your styles for btn--with-icon */
+}

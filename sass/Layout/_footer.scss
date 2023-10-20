@@ -1,0 +1,63 @@
+.footer {
+    border-top: 4px solid $primary-color;
+    padding-top: 12px;
+
+    &__heading {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        color: $text-color;
+    }
+
+    &-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    &-item {
+        &__link {
+            text-decoration: none;
+            color: #666;
+            font-size: 1.2rem;
+            padding: 2px 0;
+            display: flex;
+            align-items: center;
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+
+        &-icon {
+            font-size: 1.6rem;
+            margin: -1px 8px 0 0;
+
+        }
+    }
+
+    &__download {
+        display: flex;
+
+        &--qr {
+            width: 80px;
+            border: 1px solid black;
+            height: 80px;
+        }
+
+        &-apps {
+            flex: 1;
+            margin-left: 16px;
+        }
+
+        &-app-img {
+            height: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &-app-link {
+            text-decoration: none;
+            color: transparent;
+        }
+    }
+}

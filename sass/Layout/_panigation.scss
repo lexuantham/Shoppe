@@ -1,0 +1,33 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    &-item {
+        margin: 0 12px;
+
+        &__link {
+            text-decoration: none;
+            font-size: 2rem;
+            font-weight: 300;
+            color: $text-color;
+            min-width: 40px;
+            height: 30px;
+            line-height: 30px;
+            display: block;
+            text-align: center;
+            border-radius: 2px;
+        }
+
+        &--active &__link {
+            background-color: orangered;
+            color: $white-color;
+        }
+    }
+}
+
+.home-product__pagination {
+    margin: 48px 0 32px;
+
+}

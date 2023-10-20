@@ -1,0 +1,28 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes headrNotifyFrowth {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes growth {
+  from {
+    transform: scale($growth-from);
+  }
+  to {
+    transform: scale($growth-to);
+  }
+}
